@@ -100,7 +100,7 @@ C:\ti\simplelink_cc2640r2_sdk_1_35_00_33\source\ti\blestack\profiles\simple_prof
 -I
 C:\ti\simplelink_cc2640r2_sdk_1_35_00_33\source\ti\blestack\profiles\simple_profile\cc26xx
 -I
-C:\ti\simplelink_cc2640r2_sdk_1_35_00_33\examples\rtos\CC2640R2_LAUNCHXL\blestack\fence_slave\tirtos\iar\xC:\ti\simplelink_cc2640r2_sdk_1_35_00_33\source\ti\blestack\target
+C:\ti\simplelink_cc2640r2_sdk_1_35_00_33\source\ti\blestack\icall\app\xC:\ti\simplelink_cc2640r2_sdk_1_35_00_33\source\ti\blestack\target
 -I
 C:\ti\simplelink_cc2640r2_sdk_1_35_00_33\examples\rtos\CC2640R2_LAUNCHXL\blestack\fence_slave\src\app\target
 -I

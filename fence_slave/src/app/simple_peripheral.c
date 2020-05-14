@@ -468,21 +468,21 @@ void Hex_to_Dexinhex(uint8_t hex, uint *data)
   //High byte
   byte = 
 }*/
-void Hex_to_Hex(uint8_t hex, uint8_t *data)
-{
-  uint8_t byte;
-  
-  //High byte
-  byte = hex >> 4;
-  data[0] = byte;
-  
-  //Low byte
-  byte = (hex & 0X0F);
-  data[1] = byte;
-  
-  data[2] = data[0]*10+data[1];
-  data[3] = (data[2]/10)*16 + (data[2]%10);
-}
+//void Hex_to_Hex(uint8_t hex, uint8_t *data)
+//{
+//  uint8_t byte;
+//  
+//  //High byte
+//  byte = hex >> 4;
+//  data[0] = byte;
+//  
+//  //Low byte
+//  byte = (hex & 0X0F);
+//  data[1] = byte;
+//  
+//  data[2] = data[0]*10+data[1];
+//  data[3] = (data[2]/10)*16 + (data[2]%10);
+//}
 
 
 /*********************************************************************

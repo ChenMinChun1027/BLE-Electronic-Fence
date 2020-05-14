@@ -208,7 +208,7 @@
                     <item>PIN_setOutputValue</item>
                     <item>newValue3</item>
                     <item>ioswritedata</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
