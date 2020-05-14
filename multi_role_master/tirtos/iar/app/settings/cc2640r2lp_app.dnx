@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <XdsDriver>
+        <xds100v3serialNo>122116A9</xds100v3serialNo>
+        <xds100v3foundProbes />
+        <xds110serialNo>00000110</xds110serialNo>
+        <xds110foundProbes />
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <xdsResetStyle>0</xdsResetStyle>
+        <xdsResetStrategy>3</xdsResetStrategy>
+    </XdsDriver>
+    <DebugChecksum>
+        <Checksum>297000763</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>48000000</CpuClock>
+        <ClockAutoDetect>1</ClockAutoDetect>
+        <ClockWanted>3846154</ClockWanted>
+        <JtagSpeed>2884615</JtagSpeed>
+        <Prescaler>17</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <struct_types>
+        <Fmt0>struct flag-APN_Ok_Flag	3	0</Fmt0>
+        <Fmt1>struct flag-CFUN_OK_Flag	3	0</Fmt1>
+        <Fmt2>struct flag-CSQ_Ok_Flag	3	0</Fmt2>
+        <Fmt3>struct flag-GATT_Ok_Flag	3	0</Fmt3>
+        <Fmt4>struct flag-IMEI_Ok_Flag	3	0</Fmt4>
+        <Fmt5>struct flag-IMSI_Ok_Flag	3	0</Fmt5>
+        <Fmt6>struct flag-NBIot_Init_Ok	3	0</Fmt6>
+        <Fmt7>struct flag-NB_flag	3	0</Fmt7>
+        <Fmt8>struct flag-REG_Ok_Flag	3	0</Fmt8>
+    </struct_types>
+    <array_types>
+        <Fmt0>int[4]	5	0</Fmt0>
+        <Fmt1>uint8_t[1]	4	0</Fmt1>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}42:APN_Ok_Flag	3	0</Fmt0>
+        <Fmt1>{W}42:CFUN_OK_Flag	3	0</Fmt1>
+        <Fmt2>{W}42:CSQ_Ok_Flag	3	0</Fmt2>
+        <Fmt3>{W}42:GATT_Ok_Flag	3	0</Fmt3>
+        <Fmt4>{W}42:IMEI_Ok_Flag	3	0</Fmt4>
+        <Fmt5>{W}42:IMSI_Ok_Flag	3	0</Fmt5>
+        <Fmt6>{W}42:NBIot_Init_Ok	3	0</Fmt6>
+        <Fmt7>{W}42:REG_Ok_Flag	3	0</Fmt7>
+        <Fmt8>{W}42:rx	1	0</Fmt8>
+        <Fmt9>{W}42:tx	4	0</Fmt9>
+    </watch_formats>
+    <PowerLog>
+        <Title_0>Energy</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <Title_1>Voltage</Title_1>
+        <Symbol_1>0 4 0</Symbol_1>
+        <Title_2>Current</Title_2>
+        <Symbol_2>0 4 0</Symbol_2>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <StateLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <StateSumSortOrder>0</StateSumSortOrder>
+    </StateLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp8>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp8>
+        <Bp9>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp9>
+        <Bp10>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp10>
+        <Bp11>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.0.1" 0 0 1 "" 0 "" 0</Bp11>
+        <Bp12>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.1040.5" 0 0 1 "" 0 "" 0</Bp12>
+        <Count>13</Count>
+    </Breakpoints2>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <Aliases>
+        <A0>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\adi.c" ""</A0>
+        <A1>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\aon_wuc.h" ""</A1>
+        <A2>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\setup.c" ""</A2>
+        <A3>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll.c" ""</A3>
+        <A4>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_access_address.c" ""</A4>
+        <A5>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_error_end_causes.c" ""</A5>
+        <A6>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_isr.c" ""</A6>
+        <A7>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_master_end_causes.c" ""</A7>
+        <A8>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_scheduler.c" ""</A8>
+        <A9>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\hci\cc26xx_r2\hci_tl.c" ""</A9>
+        <A10>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\host\gap_centdevmgr.c" ""</A10>
+        <A11>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\host\gatt_client.c" ""</A11>
+        <A12>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\host\gattservapp.c" ""</A12>
+        <Count>13</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>Current</Probe0>
+        <ProbeSetup0>0 1 1 2 0 0</ProbeSetup0>
+        <Probe1>Voltage</Probe1>
+        <ProbeSetup1>1 1 1 4 0 0</ProbeSetup1>
+        <Probe2>Energy</Probe2>
+        <ProbeSetup2>4 1 1 10 0 0</ProbeSetup2>
+    </PowerProbe>
+</settings>
