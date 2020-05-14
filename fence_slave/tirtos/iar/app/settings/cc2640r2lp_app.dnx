@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <XdsDriver>
+        <xds100v3serialNo>12211537</xds100v3serialNo>
+        <xds100v3foundProbes />
+        <xds110serialNo>000000KU</xds110serialNo>
+        <xds110foundProbes />
+        <xdsResetStyle>0</xdsResetStyle>
+        <xdsResetStrategy>3</xdsResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </XdsDriver>
+    <DebugChecksum>
+        <Checksum>85086200</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <Disassemble_mode>
+        <mode>0</mode>
+    </Disassemble_mode>
+    <struct_types>
+        <Fmt0>RTCTimeStruct-seconds	3	0</Fmt0>
+        <Fmt1>UTCTimeStruct-day	3	0</Fmt1>
+        <Fmt2>UTCTimeStruct-hour	3	0</Fmt2>
+        <Fmt3>UTCTimeStruct-minutes	3	0</Fmt3>
+        <Fmt4>UTCTimeStruct-month	3	0</Fmt4>
+        <Fmt5>UTCTimeStruct-seconds	3	0</Fmt5>
+    </struct_types>
+    <array_types>
+        <Fmt0>uint16_t[3]	4	0</Fmt0>
+        <Fmt1>uint16_t[6]	4	0</Fmt1>
+        <Fmt2>uint8[20]	4	0</Fmt2>
+        <Fmt3>uint8[31]	1	0</Fmt3>
+        <Fmt4>uint8_t[7]	3	0</Fmt4>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}42:ADC_Result	4	3</Fmt0>
+        <Fmt1>{W}42:Batt	4	0</Fmt1>
+        <Fmt2>{W}42:Magnetic	3	0</Fmt2>
+        <Fmt3>{W}42:ReadResult_xH	4	0</Fmt3>
+        <Fmt4>{W}42:ReadResult_yH	4	0</Fmt4>
+        <Fmt5>{W}42:ReadResult_yL	4	0</Fmt5>
+        <Fmt6>{W}42:Solar_State	3	0</Fmt6>
+        <Fmt7>{W}42:Status	3	0</Fmt7>
+        <Fmt8>{W}42:batVol	4	0</Fmt8>
+        <Fmt9>{W}42:batVol_H	4	0</Fmt9>
+        <Fmt10>{W}42:batVol_L	4	0</Fmt10>
+        <Fmt11>{W}42:before_ParkingState	4	1</Fmt11>
+        <Fmt12>{W}42:flashdata	3	0</Fmt12>
+        <Fmt13>{W}42:result_x	3	0</Fmt13>
+        <Fmt14>{W}42:userTime	3	0</Fmt14>
+    </watch_formats>
+    <PowerLog>
+        <Title_0>Energy</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <Title_1>Voltage</Title_1>
+        <Symbol_1>0 4 0</Symbol_1>
+        <Title_2>Current</Title_2>
+        <Symbol_2>0 4 0</Symbol_2>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <StateLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <StateSumSortOrder>0</StateSumSortOrder>
+    </StateLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>0</ShowTiming>
+    </CallStackStripe>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>Current</Probe0>
+        <ProbeSetup0>0 1 1 2 0 0</ProbeSetup0>
+        <Probe1>Voltage</Probe1>
+        <ProbeSetup1>1 1 1 4 0 0</ProbeSetup1>
+        <Probe2>Energy</Probe2>
+        <ProbeSetup2>4 1 1 10 0 0</ProbeSetup2>
+    </PowerProbe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\adi.h" ""</A0>
+        <A1>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\aon_wuc.h" ""</A1>
+        <A2>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\aux_adc.c" ""</A2>
+        <A3>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\chipinfo.c" ""</A3>
+        <A4>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\chipinfo.h" ""</A4>
+        <A5>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\cpu.c" ""</A5>
+        <A6>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\ddi.h" ""</A6>
+        <A7>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\setup.c" ""</A7>
+        <A8>_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\sys_ctrl.c" ""</A8>
+        <A9>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_common.c" ""</A9>
+        <A10>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_error_end_causes.c" ""</A10>
+        <A11>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll_isr.c" ""</A11>
+        <A12>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\host\gattservapp.c" ""</A12>
+        <Count>13</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

@@ -1,0 +1,50 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[XdsDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+xds100v3serialNo=1221101D
+xds100v3foundProbes=
+xdsResetStyle=2
+xdsResetStrategy=3
+[DebugChecksum]
+Checksum=-1329004760
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\simple_peripheral.c}.418.3" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\simple_peripheral.c}.643.5" 0 0 1 "" 0 "" 0
+Bp2=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\simple_peripheral.c}.633.3" 0 0 1 "" 0 "" 0
+Bp3=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\main.c}.221.3" 0 0 1 "" 0 "" 0
+Count=4
+[Aliases]
+A0=_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\chipinfo.c" ""
+A1=_ "C:\Jenkins\jobs\FWGroup-DriverLib\workspace\modules\output\cc26xx_ch2_1_0_ext\driverlib\chipinfo.h" ""
+Count=2
+SuppressDialog=0
