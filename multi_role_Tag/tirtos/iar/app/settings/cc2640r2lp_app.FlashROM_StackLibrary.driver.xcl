@@ -6,13 +6,13 @@
 
 "-p" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CONFIG\debugger\TexasInstruments\CC2650F128.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CONFIG\debugger\TexasInstruments\CC2640R2F.ddf" 
 
 "--semihosting=none" 
 
-"--device=CC2650F128" 
+"--device=CC2640R2F" 
 
-"--xds_hib_address=0x10003F54,0x10003A9A" 
+"--xds_hib_address=0x10001628,0x10000F6C" 
 
 "--drv_catch_exceptions=0x000" 
 

@@ -78,7 +78,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>CC2650F128	TexasInstruments CC2650F128</state>
+                    <state>CC2640R2F	TexasInstruments CC2640R2F</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -138,7 +138,7 @@
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>CC2650F128	TexasInstruments CC2650F128</state>
+                    <state>CC2640R2F	TexasInstruments CC2640R2F</state>
                 </option>
                 <option>
                     <name>FPU2</name>
@@ -214,8 +214,8 @@
                     <state>xBOARD_DISPLAY_USE_LCD=0</state>
                     <state>xBOARD_DISPLAY_USE_UART=1</state>
                     <state>xBOARD_DISPLAY_USE_UART_ANSI=1</state>
-                    <state>xCC2640R2_LAUNCHXL</state>
-                    <state>CC2640R2DK_5XD</state>
+                    <state>CC2640R2_LAUNCHXL</state>
+                    <state>xCC2640R2DK_5XD</state>
                     <state>CC26XX</state>
                     <state>CC26XX_R2</state>
                     <state>DEVICE_FAMILY=cc26x0r2</state>
