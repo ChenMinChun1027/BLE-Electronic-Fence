@@ -44,7 +44,7 @@
                 </option>
                 <option>
                     <name>MemFile</name>
-                    <state>$TOOLKIT_DIR$\CONFIG\debugger\TexasInstruments\CC2650F128.ddf</state>
+                    <state>$TOOLKIT_DIR$\CONFIG\debugger\TexasInstruments\CC2640R2F.ddf</state>
                 </option>
                 <option>
                     <name>RunToEnable</name>
@@ -421,7 +421,7 @@
                 </option>
                 <option>
                     <name>OCProbeConfig</name>
-                    <state></state>
+                    <state>$TOOLKIT_DIR$\config\debugger\TexasInstruments\CC26xx.ProbeConfig</state>
                 </option>
                 <option>
                     <name>CMSISDAPProbeConfigRadio</name>
@@ -662,7 +662,7 @@
                 </option>
                 <option>
                     <name>OCProbeConfig</name>
-                    <state></state>
+                    <state>$TOOLKIT_DIR$\config\debugger\TexasInstruments\CC26xx.ProbeConfig</state>
                 </option>
                 <option>
                     <name>IjetProbeConfigRadio</name>
@@ -678,7 +678,7 @@
                 </option>
                 <option>
                     <name>IjetSelectedCPUBehaviour</name>
-                    <state>0</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>ICpuName</name>
@@ -1098,7 +1098,7 @@
                 <debug>1</debug>
                 <option>
                     <name>CThirdPartyDriverDll</name>
-                    <state>###Uninitialized###</state>
+                    <state>Browse to your third-party driver</state>
                 </option>
                 <option>
                     <name>CThirdPartyLogFileCheck</name>

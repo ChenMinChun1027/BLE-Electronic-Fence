@@ -14,7 +14,7 @@
     <XdsDriver>
         <xds100v3serialNo>12211537</xds100v3serialNo>
         <xds100v3foundProbes />
-        <xds110serialNo>000000KU</xds110serialNo>
+        <xds110serialNo>L11001UB</xds110serialNo>
         <xds110foundProbes />
         <xdsResetStyle>0</xdsResetStyle>
         <xdsResetStrategy>3</xdsResetStrategy>
@@ -22,7 +22,7 @@
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </XdsDriver>
     <DebugChecksum>
-        <Checksum>939234789</Checksum>
+        <Checksum>4059591927</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -175,9 +175,7 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.1214.11" 0 0 1 "" 0 "" 0</Bp0>
-        <Bp1>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\src\app\multi_role.c}.2057.7" 0 0 1 "" 0 "" 0</Bp1>
-        <Count>2</Count>
+        <Count>0</Count>
     </Breakpoints2>
     <Aliases>
         <A0>_ "c:\jk\workspace\BLE_3.x_Quick_mBuild\ble\src\controller\cc26xx_r2\ll\ll.c" ""</A0>

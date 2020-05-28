@@ -134,6 +134,7 @@ uint8_t advopen  = true;
 int led_count=0;
 int adv_count=0;
 int RSSI_count = 0;
+int RLED=0;
 uint8 b[10]={0};
 
 #include "shutdn_button.h"
@@ -989,7 +990,8 @@ static void multi_role_init(void)
   //routedata[1] = writedata[]
   
   //PIN_setOutputValue(hSbpPins, Board_LED_G,1); //設定綠燈亮  
-  PIN_setOutputValue(gpioPinHandle,CC2640R2DK_5XD_PIN_LED1 , 0);
+  PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_GLED , 0);
+  PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_RLED , 1);
   //Util_startClock(&moveClock);
   //Util_startClock(&safeClock);
   
@@ -1124,6 +1126,9 @@ static void multi_role_taskFxn(UArg a0, UArg a1)
       {
        events &= ~SBP_PERIODIC_EVT;
        
+       RLED++;
+       PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_RLED , RLED%2);
+       
        adv_count++;
         if(adv_count == 5)
         {  
@@ -1207,7 +1212,8 @@ static void multi_role_taskFxn(UArg a0, UArg a1)
           RSSI_count++;
           //PIN_setOutputValue(hSbpPins, Board_LED_G, led_count%2); //設定綠燈亮  
         
-          PIN_setOutputValue(gpioPinHandle,CC2640R2DK_5XD_PIN_LED1 , i);
+          PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_RLED , 0);
+          PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_GLED , i);
           i=!i;
 
           Voltage();
@@ -1222,6 +1228,7 @@ static void multi_role_taskFxn(UArg a0, UArg a1)
             led_count = 0;
             adv_count = 0;
             RSSI_count = 0;
+            PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_GLED , 0);
             memset(scan_bNode_record,0,SCAN_BNODE_RECORD_SIZE * sizeof(bNode_data_t));
             memset(routedata,0,sizeof(routedata));
           for(int x=0; x<4; x++)
@@ -2137,7 +2144,7 @@ static void multi_role_handleKeys(uint8_t keys)
 {
   if( keys & KEY_BTN0)
   {
-    Blink(CC2640R2DK_5XD_PIN_LED1, 5);
+    Blink(CC2640R2_LAUNCHXL_PIN_GLED, 5);
     Power_shutdown(NULL, 0); 
   }
   else{
