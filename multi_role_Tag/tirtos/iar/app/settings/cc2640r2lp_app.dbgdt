@@ -243,7 +243,7 @@
                     <item>RSSI_count</item>
                     <item>newValue3</item>
                     <item>tagsafe_advertdata</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
