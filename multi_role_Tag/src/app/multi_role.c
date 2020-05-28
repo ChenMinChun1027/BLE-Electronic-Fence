@@ -1128,7 +1128,7 @@ static void multi_role_taskFxn(UArg a0, UArg a1)
        
        RLED++;
        PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_RLED , RLED%2);
-       //RLED
+       
        
        adv_count++;
         if(adv_count == 5)
