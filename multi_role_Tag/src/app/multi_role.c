@@ -1126,7 +1126,7 @@ static void multi_role_taskFxn(UArg a0, UArg a1)
       {
        events &= ~SBP_PERIODIC_EVT;
        
-       //RED_LED123
+       //RED_LED
        RLED++;
        PIN_setOutputValue(gpioPinHandle,CC2640R2_LAUNCHXL_PIN_RLED , RLED%2);
        
